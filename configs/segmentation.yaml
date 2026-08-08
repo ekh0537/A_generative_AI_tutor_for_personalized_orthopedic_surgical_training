@@ -1,0 +1,8 @@
+epochs: 200
+batch_size_per_gpu: 2
+learning_rate: 0.0001
+optimizer: adamw
+precision: bf16
+folds: 5
+volume_shape: [200, 512, 512]
+fragment_loss_weight: 0.3

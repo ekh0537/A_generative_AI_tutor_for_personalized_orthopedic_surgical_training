@@ -1,0 +1,15 @@
+TotalSegmentator-v2 | https://github.com/wasserth/TotalSegmentator | CC-BY-4.0 data
+VerSe-19/20 | https://verse2020.grand-challenge.org/ | CC-BY-4.0
+Lumbar Spine MRI | https://doi.org/10.5281/zenodo.10159290 | CC-BY-4.0
+Osteoarthritis Initiative | https://nda.nih.gov/oai/ | NIH controlled public
+MURA | https://stanfordmlgroup.github.io/competitions/mura/ | Stanford ML academic
+GRAZPEDWRI-DX | https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193 | CC-BY-4.0
+MedShapeNet | https://medshapenet.ikim.nrw/ | CC-BY-4.0
+MedQA | https://github.com/jind11/MedQA | MIT
+MedMCQA | https://medmcqa.github.io/ | Apache-2.0
+PubMedQA | https://pubmedqa.github.io/ | MIT
+ASSISTments | https://sites.google.com/site/assistmentsdata/datasets | CC-BY
+EdNet-KT1 | https://github.com/riiid/ednet | CC-BY-NC-4.0
+OULAD | https://analyse.kmi.open.ac.uk/open_dataset | CC-BY-4.0
+Junyi Academy | https://www.junyiacademy.org/ | CC-BY-NC-4.0
+KDD EDM Cup 2010 | https://pslcdatashop.web.cmu.edu/KDDCup/ | DataShop terms

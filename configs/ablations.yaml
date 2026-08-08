@@ -1,0 +1,11 @@
+variants:
+  - full
+  - no_geometry
+  - no_grounding
+  - no_pedagogy
+  - no_personalization
+learning_rates: [0.0001, 0.0005, 0.001]
+batch_sizes: [8, 16, 32]
+geometry_weights: [0.3, 0.5, 0.7]
+backbones: [nnunet, swinunetr, stu_net]
+adapters: [lora, full, prefix]

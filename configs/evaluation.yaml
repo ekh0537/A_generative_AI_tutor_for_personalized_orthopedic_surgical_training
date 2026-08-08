@@ -1,0 +1,7 @@
+seeds: [1049, 2026, 4093, 8191, 16381]
+bootstrap_samples: 10000
+familywise_alpha: 0.05
+simulated_trainees: [200, 500, 1000]
+trajectories_per_seed: 10
+hallucination_questions: 500
+judge_sample_fraction: 0.1

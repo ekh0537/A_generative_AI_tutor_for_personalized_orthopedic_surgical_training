@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools==75.1.0", "wheel==0.44.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ag-tri-ct"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = ["torch==2.4.1", "numpy==1.26.4", "pyyaml==6.0.2"]
+
+[project.scripts]
+ag-tri-ct = "ag_tri_ct.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["code"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["code"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["ag_tri_ct"]
+mypy_path = "code"
+disable_error_code = ["no-any-return", "operator", "misc", "no-untyped-call"]
